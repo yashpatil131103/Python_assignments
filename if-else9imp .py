@@ -12,7 +12,31 @@ if unit <= 100:
 elif unit <= 200:
     bill = (unit - 100) * 5
 else:
-    bill = (100 * 5) + (unit - 200) * 10
+    bill = (100*0)+(100 * 5) + (unit - 200) * 10
 
 print("Totaal", bill)
+#########################################################
+or
+units=int(input("entehr no of units consumedd"))
+charge=0
+if units<=100:
+    charge=0
+elif 100<units <=200:
+    charge=100*0+(units-100)*5
+elif units>200:
+    charge=100*0+100*5+(units-200)*10
+########################################################
+
+
+charge=0
+if units>200:
+    charge=charge + (units-200)*10
+    units =200
+if units>100:
+    charge=charge +(units-100)*5
+    units=100 
+if units <=2=100:
+    charge=charge 
+
+
 
