@@ -5,14 +5,14 @@
 #After 200 units                                       Rs 10 per unit  
 #(For example if input unit is 350 than total bill amount is Rs2000)  
 
-units = int(input("Enter electricity units consumed: "))
+unit = int(input("Enter electricity units consumed: "))
 
-if units <= 100:
+if unit <= 100:
     bill = 0
-elif units <= 200:
-    bill = (units - 100) * 5
+elif unit <= 200:
+    bill = (unit - 100) * 5
 else:
-    bill = (100 * 5) + (units - 200) * 10
+    bill = (100 * 5) + (unit - 200) * 10
 
-print("Total bill amount: Rs", bill)
+print("Totaal", bill)
 
