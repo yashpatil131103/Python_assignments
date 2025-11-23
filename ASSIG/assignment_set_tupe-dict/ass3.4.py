@@ -12,3 +12,11 @@
 #---- Accept city and trees to be added in the city. if city exist add trees at the end of the list
 #---- Otherwise add city and list
 #g. Exit
+
+city=input("Enter the name of city ")
+tree=[]
+tf=False
+while (tf==False):
+    tf=bool(input("do you wan to enter the plant enter 1 for yes  and 0 for no")
+    
+

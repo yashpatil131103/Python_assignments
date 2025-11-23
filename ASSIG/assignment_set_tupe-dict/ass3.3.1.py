@@ -63,8 +63,14 @@ name=input("Enter the vehicles name to get the owner name")
 for k,v in vehicles.items():
     if v==name:
         print(k,v)
+
 #e. Search list of people, who have given a vehicle
-
-
-
-
+for name in vehicles.keys():
+    if name!=None:
+        print(name)
+#f. Display all person names.
+for k,v in vehicles.items():
+    print(k)
+#g. Display all vehicle names.
+for k,v in vehicles.items():
+    print(v)
